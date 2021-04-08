@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo JQuery</title>
+
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <style>
+        .margen-superior{
+            display: block;
+            margin-top: 25px;
+            
+        }
+
+        .resaltado{
+            border-color: blue;
+            margin-top: 10px;
+            color: coral;
+        }
+
+        #cajon{
+            width: 250px;
+            height: 250px;
+            border: 2px solid black;
+            background: brown;
+        }
+
+        input{
+            padding: 10px;
+            width: 200px;
+            font-size: 20px;
+        }
+
+        #datos{
+            border: 3px dashed black;
+            padding: 10px;
+            width: 250px;
+            height: 50px;
+            margin-top: 10px;
+            display: none;
+        }
+
+        #sigueme{
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            display: block;
+            background: blue;
+            opacity: 1px;
+            border: 3px solid black;
+            border-radius: 999px;
+        }
+    </style>
+
+</head>
+<body id="body">
+    <h1>Aprendiendo JQuery </h1>
+
+    <div id="sigueme"></div>
+
+    <ul>
+        <li><a href="https://www.google.com.ar/" title="Google" target="_blank">Ir a google</a></li>
+        <li><a href="https://twitter.com/home" title="Twitter" target="_blank">Ir a twitter</a></li>
+        <li><a href="https://www.facebook.com/" title="Facebook" target="_blank">Ir a facebook</a></li>
+        <li><a href="https://www.instagram.com/" title="Instagram" target="_blank">Ir a instagram</a></li>
+        <li><a href="https://app.slack.com/client/T960LJRFA/CM1EVNW01" title="Slack" target="_blank">Ir a slack</a></li>
+    </ul>
+    <p id="rojo" class="zebra">Ejercicios de JQuery</p>
+    <p id="amarillo" class="cabra">Practicando con Selectores</p>
+    <p id="verde" class="zebra">Quiero ser un parrafo verde</p>
+    <p class="cabra">Alto parrafo soy</p>
+
+    <div id="caja">
+        <p>Hola mamasita</p>
+        <ul>
+            <li >Elemento 1</li>
+            <li class="resaltado"> Elemento 2</li>
+        </ul>
+        <span class="resaltado">Soy un virus pa</span>
+    </div>
+    <br>
+    <form action="">
+        <input type="text" name="" id="nombre">
+    </form>
+    
+    <br>
+    <div id="datos"></div>
+    <br>
+
+    <div id="cajon">Soy una caja</div>
+
+   
+
+</body>
+</html>

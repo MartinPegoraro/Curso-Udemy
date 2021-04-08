@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>aprendiendo como un campeon</title>
+
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" href="js/jqueryui/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/jqueryui/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="js/jqueryui/jquery-ui.theme.min.css">
+
+    <script type="text/javascript" src="js/jqueryui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/interface.js"></script>
+
+    <style>
+        .elemento{
+            width: 300px;
+            height: 200px;
+            border: 4px solid black;
+            background: lightblue;
+            margin: 20px;
+            float: left;
+           
+        }
+
+        .listaa li{
+            width: 80%;
+            height: 20px;
+            border: 1px solid green;
+            margin-top: 5px;
+            list-style: none;
+            cursor: pointer;
+        }
+
+        ul .ui-selecting {background: green;}
+        ul .ui-selected {background: blue;}
+
+        #elemento-movido{
+            width: 100px;
+            height: 100px;
+            border: 4px solid red;
+        }
+        #area{
+            width: 300px;
+            height: 300px;
+            border: 4px solid green;
+        }
+        .elemento{
+            background: pink;
+            float: none;
+            display: none;
+        }
+        
+
+    </style>
+
+ 
+   
+ 
+</head>
+<body>
+    <h1>Hola Azor Ahai, aprendiendo AJAX</h1>
+
+    <hr>
+    <h3>Tooltip</h3>
+
+    <a href="#" title="Acceder a la seccion de mis datos" id="mis-datos">Mis datos</a>
+    <br>
+    <a href="#" title="Hace lo que quieras cabro" >AZOR AHAI</a>
+
+    <hr>
+
+
+    <h3>Cadros de dialogo</h3>
+    <button id="lanzame">lanzar popup</button>
+
+     <div id="popup" title="seguro que quieres hacerlo?" style="display: none;">
+            <p>Si continuas aca te llevaras una sorpresa</p>
+    </div>
+
+    <br>
+    <hr>
+
+    <h3>Calendario</h3>
+    <input type="text" name="" id="calendario">
+
+    <br>
+    <hr>
+
+
+    <h3>Panel de Pestaña</h3>
+    
+    <div id="pestana">
+        <ul>
+            <li><a href="#tabs-1">Pestaña 1</a></li>
+            <li><a href="#tabs-2">Pestaña 2</a></li>
+            <li><a href="#tabs-3">Pestaña 3</a></li>
+        </ul>
+        <div id="tabs-1">Soy sansa stark</div>
+        <div id="tabs-2">Soy tyrion lannister</div>
+        <div id="tabs-3">Soy azor ahai</div>
+    </div>
+
+    <br>
+    <hr>
+   
+   
+   
+    <button id="mostrar">Mostrar</button>
+
+    <div class="caja-efecto elemento"></div>
+
+    <div id="elemento-movido"></div>
+    <br>
+    <div id="area"></div>
+
+    <ul class="listaa">
+        <li>GTA5</li>
+        <li>GOD OF WAR</li>
+        <li>DARK SOULS 3</li>
+        <li>THE WITCHER 3</li>
+        <li>Mario</li>
+    </ul>
+
+    <div class="elemento">
+        Elemento de la web
+    </div>
+
+    <div class="elemento">
+        Elemento de la web
+    </div>
+
+    <div class="elemento">
+        Elemento de la web
+    </div>
+
+</html>

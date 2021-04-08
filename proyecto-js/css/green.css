@@ -1,0 +1,21 @@
+body{
+    background: url("../img/images1.jpg");
+    background-attachment: fixed;
+}
+
+#global{
+    background: #E3E3E3;
+}
+
+#logo{
+   
+    background: green;
+}
+
+#menu ul li:hover{
+    background: green;
+}
+
+.button-more{
+    background: green;
+}
